@@ -9,6 +9,7 @@ body {
   line-height: 2rem;
   font-size: 18px;
   text-align: center;
+  color: hsl(171, 66%, 44%);
 }
 
 a {
@@ -18,17 +19,19 @@ a {
   padding: 15px;
   background: black;
   border-radius: 25px;
-  color: #ffffff;
+  color: #ffffff;);
 }
 
 h1 {
-  font-weight: 00;
+  font-weight: 600;
   padding-bottom: 20px;
+  color: black;
 }
 li { list-style: none;}
 /* Buttons */
 .green { background: hsl(171, 66%, 44%);}
-.blue { background: hsl(233, 100%, 69%);}
+
+.blue {   background: hsl(233, 100%, 69%); }
 .green:hover{
   color:  hsl(171, 66%, 44%);
   background: hsl(171, 66%, 90%);
@@ -92,14 +95,9 @@ header .showcase h1 {
 }
 /* SECTION 4 */
 .boxes {
-  padding-top: 40px;
-  /* display: flex;
-  flex-direction: column;
-  align-content: space-between; */
+  padding-top: 40px;  
 }
-/* .boxes .box {
-  padding-top: 20px;
-} */
+
 .boxes .box img {
   padding: 50px;
 }
@@ -112,7 +110,6 @@ header .showcase h1 {
   padding-top: 70px;
   padding-bottom: 120px;
 }
-
 
 /* FOOTER */
 footer {
@@ -163,7 +160,8 @@ footer ul li {
 
   .section-2 .details {
     text-align: left;
-    padding-left: 25px;
+    padding-left: 100px;
+    max-width: 600px;
   }
   
   .section-4 .boxes {
